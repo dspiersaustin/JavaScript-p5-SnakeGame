@@ -1,0 +1,6 @@
+p5.js framework installed in folder .. relative to game files
+p5.d.ts
+p5.global-mode.d.ts
+p5.js
+p5.min.js
+p5.pre-min.js
