@@ -9,15 +9,11 @@ function Snake() {
   //Check to see if the snake has eaten the food with distance calc
   this.eat = function(pos) {
 	  var d = dist(this.x, this.y, pos.x, pos.y);
-	  //console.log(this.x, this.y, pos.x, pos.y);
-	  //console.log('this.eat value of d');
-	  //console.log(d);
+
 	  if (d < 1) {
 		  this.total++;
-		  //console.log('about to return true');
 		  return true;
 	  } else {
-		  //console.log('returning false');
 		  return false;
 	  }
   }
